@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-jsdt') {
+orgs.newOrg('webtools.jsdt', 'eclipse-jsdt') {
   settings+: {
     description: "",
     name: "Eclipse JSDT project",
